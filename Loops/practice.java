@@ -37,5 +37,14 @@ public class practice {
 
         System.out.println("--------------------------------------------------------");
 
+        System.out.println("Question 3: Write a program to print the multiplication table of a given number n:");
+        int a = 5;
+               //for(int i=0; i<10; i++) - Goes from i=0 to i=9
+               for(int i=1;i<=10;i++){
+                   System.out.printf("%d X %d = %d\n", a, i, a*i);
+               }
+
+        System.out.println("--------------------------------------------------------");
+
     }
 }
