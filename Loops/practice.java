@@ -54,6 +54,16 @@ public class practice {
                }
 
         System.out.println("----------------------------------------------------------------------------------------------------------------");
+
+        System.out.println("Question 5: Write a program to find the factorial of a given number using for loops:");
+        int c,fact=1;  
+        int number=5;//It is the number to calculate factorial    
+        for(c=1; c<=number; c++){    
+            fact=fact*c;    
+        }    
+        System.out.println("Factorial of "+number+" is: "+fact);    
+
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
         
     }
 }
