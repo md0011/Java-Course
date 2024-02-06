@@ -79,5 +79,21 @@ public class practice {
         
         System.out.println("----------------------------------------------------------------------------------------------------------------");
 
+        System.out.println("Question 7: Repeat problem 1 using while loop:");
+        int rows = 4;  // Number of rows in the pattern
+        int f = 1;     // Loop counter for rows
+
+        while (f <= rows) {
+            int g = 1;  // Loop counter for columns (asterisks)
+            while (g <= rows - f + 1) {  // Print asterisks in each row
+                System.out.print("*");
+                g++;
+            }
+            System.out.println();  // Move to the next line after each row
+            f++;
+        }
+
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
+
     }
 }
