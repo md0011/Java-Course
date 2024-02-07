@@ -31,7 +31,7 @@ public class practice {
         for (int i = 0; i < n; i++) {
             sum = sum + (2 * i);
         }
-        System.out.print("Sum of even numbers is: ");
+        System.out.print("Sum of the first " + n + " even numbers is: ");
         System.out.println(sum);
         // First 4 even numbers are - 0 2 4 6
 
@@ -103,6 +103,19 @@ public class practice {
             plus += p*q;
         }
         System.out.println("Answer:- " + plus);
+
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
+
+        System.out.println("Question 11: Repeat problem 2 using while loop:");
+        int r = 5; // Assuming n is 5, as in the given code
+        int addition = 0;
+        int s = 0;
+        while (s < r) {
+            addition += 2 * s;
+            s++;
+        }
+        System.out.print("Sum of the first " + r + " even numbers is:- ");
+        System.out.println(addition);
 
         System.out.println("----------------------------------------------------------------------------------------------------------------");
 
