@@ -95,5 +95,16 @@ public class practice {
 
         System.out.println("----------------------------------------------------------------------------------------------------------------");
 
+        System.out.println("Question 9: Write a program to calculate the sum of the numbers occurring in the multiplication table of 8:");
+        int p = 8;
+        int plus = 0;
+        //for(int i=0; i<10; i++) - Goes from i=0 to i=9
+        for(int q=1;q<=10;q++){
+            plus += p*q;
+        }
+        System.out.println("Answer:- " + plus);
+
+        System.out.println("----------------------------------------------------------------------------------------------------------------");
+
     }
 }
