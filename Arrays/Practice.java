@@ -7,7 +7,7 @@ public class Practice {
 
     public static void main(String[] args) {
         
-        System.out.println("-----------------------------------------------------------------------------");
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 
         System.out.println("Question 1. Create an array of 5 floats and calculate their sum:");
         float [] marks = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
@@ -17,7 +17,7 @@ public class Practice {
         }
         System.out.println("The value of sum is " + sum);
 
-        System.out.println("-----------------------------------------------------------------------------------------------------");
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 
         System.out.println("Question 2. Write a program to find out whether a given integer is present in an array or not:");
         float[] marks1 = { 45.7f, 67.8f, 63.4f, 99.2f, 100.0f };
@@ -35,7 +35,17 @@ public class Practice {
             System.out.println("The value is not present in the array!");
         }
 
-        System.out.println("-----------------------------------------------------------------------------------------------------");
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------");
+
+        System.out.println("Question 3. Calculate the average marks from an array containing marks of all students in physics using a for-each loop:");
+        float [] marks2 = {45.7f, 67.8f, 63.4f, 99.2f, 100.0f};
+        float sum2 = 0;
+        for(float element2:marks2){
+            sum2 = sum2 + element2;
+        }
+        System.out.println("The value of average marks is " + sum2/marks2.length);
+
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 
     }
 }
