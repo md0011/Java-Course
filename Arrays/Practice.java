@@ -91,5 +91,17 @@ public class Practice {
         System.out.println();
         System.out.println("---------------------------------------------------------------------------------------------------------------------------");
 
+        System.out.println("Question 6. Write a Java program to find the maximum element in an array:");
+        int [] arr1 = {1, 2100, 3, 455, 5, 34, 67};
+        int max = Integer.MIN_VALUE;
+        for(int e: arr1){
+            if(e>max){
+                max = e;
+            }
+        }
+        System.out.println("The value of the maximum element in this array is: "+ max);
+
+        System.out.println("---------------------------------------------------------------------------------------------------------------------------");
+
     }
 }
