@@ -8,7 +8,7 @@ public class MultiplicationTable {
         if (n <= 0) {
             throw new IllegalArgumentException("n must be a positive integer.");
         }
-        // Loop through numbers from 1 to 12
+        // Loop through numbers from 1 to 10
         for (int i = 1; i <= 10; i++) {
             // Print the multiplication result with formatting
             System.out.printf("%d x %d = %d\n", n, i, n * i);
